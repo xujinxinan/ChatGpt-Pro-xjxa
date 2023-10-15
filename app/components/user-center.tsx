@@ -91,7 +91,7 @@ export function UserCenterPage() {
   };
   const accessStore = useAccessStore();
   const navigate = useNavigate();
-  let serverUrl = "http://127.0.0.1:81/";
+  let serverUrl = "http://106.52.127.167:8088/";
   useEffect(() => {
     async function fetchUserInfo() {
       try {
