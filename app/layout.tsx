@@ -6,8 +6,8 @@ import { getClientConfig } from "./config/client";
 import { type Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "ChatGPT Pro",
-  description: "Your personal ChatGPT+Midjourney Chat Bot.",
+  title: "旭锦问答",
+  description: "Your personal ChatGPT+Midjourney Chat Bot | hugpower.cn",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "ChatGPT Pro",
+    title: "旭锦问答",
     statusBarStyle: "default",
   },
 };
